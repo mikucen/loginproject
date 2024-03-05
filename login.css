@@ -1,0 +1,51 @@
+.container {
+    background-color: #d7ac23;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+}
+
+.form-container {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transition: all 0.6s ease-in-out;
+
+}
+
+.sign-in-container {
+    left: 0;
+    width: 50%;
+    z-index: 2;
+
+}
+
+button.ghost {
+    background-color: #e4c249;
+    border-color: #ffffff;
+
+}
+
+form {
+    background-color: #F5F5DC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+
+}
+
+input {
+    background-color: #dff1f4;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+
+}
